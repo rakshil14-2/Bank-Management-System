@@ -289,9 +289,9 @@ public class Fd extends javax.swing.JFrame {
        }
        else
        {
-           if(male.isSelected())
+           if(male.isSelected())//gender check male
            {
-               if((Integer.parseInt(ag.getText()))>60)
+               if((Integer.parseInt(ag.getText()))>60)//age check for seniority 
                {
                  if(t1>0 && t1<=6)
                  {
@@ -355,9 +355,9 @@ public class Fd extends javax.swing.JFrame {
                  }
                }
                }
-           else
+           else//for female
            {
-               if((Integer.parseInt(ag.getText()))>58)
+               if((Integer.parseInt(ag.getText()))>58)//age for seniority
                {
                  if(t1>0 && t1<=6)
                  {
